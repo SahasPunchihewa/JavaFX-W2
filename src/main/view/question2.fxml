@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #190f52;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.Controllerq2">
+   <children>
+      <Label fx:id="name" layoutX="233.0" layoutY="68.0" prefHeight="25.0" prefWidth="136.0" textAlignment="CENTER" />
+      <Button layoutX="269.0" layoutY="181.0" mnemonicParsing="false" onAction="#getinput" style="-fx-background-color: #510084;" text="Click" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
